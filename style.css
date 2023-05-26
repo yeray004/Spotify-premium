@@ -211,27 +211,36 @@ button:hover, .button-style-2:hover{
 .card-plans button{
     width: 100%;
 }
+.card-plans p:last-of-type{
+    margin: 14px 0 0;
+    font-size: .7rem;
+    color: rgb(83, 83, 83)
+}
 /* Footer */
 footer{
-    padding: 30px 1rem;
+    padding: 30px 1rem 0;
     background: #000;
     color: #fff;
 }
 footer img{
-    height: 25px;
+    height: 30px;
+    margin: 17px 0;
 }
 .abt-footer{
     margin-bottom: 120px;
 }
+dl{
+    margin: 16px 0 60px;
+}
 dt{
     color: #919496;
     font-weight: 700;
-    font-size: .7rem;
+    font-size: .8rem;
     margin: 30px 0;
 }
 dd{
-    margin: 17px 0;
-    font-size: .75rem;
+    margin: 20px 0 22px;
+    font-size: .92rem;
 }
 .social-network{
     display: flex;
@@ -248,11 +257,12 @@ dd{
     border-radius: 100rem;
 }
 .colombia{
+    margin: 10px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: .6rem;
-    gap: 15px;
+    gap: 10px;
     color: #919496;
 }
 .colombia p{
@@ -270,10 +280,10 @@ dd{
     padding: 0;
 }
 .extra-footer li{
-    margin-bottom: 20px;
+    margin:0 8px 20px;
 }
 .extra-footer p{
-    font-size: .6rem !important;
+    font-size: .59rem !important;
 }
 /* Media normal Phone */
 @media(min-width:378px) {
@@ -281,8 +291,13 @@ dd{
         font-size: .7rem;
     }
 }
-.card-plans p:last-of-type{
-    margin: 14px 0 0;
-    font-size: .7rem;
-    color: rgb(83, 83, 83)
+@media(min-width:375px) {
+    footer{
+        padding: 30px .7rem 0;
+    }
+    .extra-footer ul{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
