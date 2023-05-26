@@ -211,6 +211,70 @@ button:hover, .button-style-2:hover{
 .card-plans button{
     width: 100%;
 }
+/* Footer */
+footer{
+    padding: 30px 1rem;
+    background: #000;
+    color: #fff;
+}
+footer img{
+    height: 25px;
+}
+.abt-footer{
+    margin-bottom: 120px;
+}
+dt{
+    color: #919496;
+    font-weight: 700;
+    font-size: .7rem;
+    margin: 30px 0;
+}
+dd{
+    margin: 17px 0;
+    font-size: .75rem;
+}
+.social-network{
+    display: flex;
+    gap: 20px;
+}
+.social-network div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    font-size: 150%;
+    justify-content: center;
+    align-items: center;
+    background-color: #222326;
+    border-radius: 100rem;
+}
+.colombia{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: .6rem;
+    gap: 15px;
+    color: #919496;
+}
+.colombia p{
+    font-size: .6rem !important;
+    padding-bottom: 2px;
+}
+.extra-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: .6rem;
+    color: #919496;
+}
+.extra-footer ul{
+    list-style: none;
+    padding: 0;
+}
+.extra-footer li{
+    margin-bottom: 20px;
+}
+.extra-footer p{
+    font-size: .6rem !important;
+}
 /* Media normal Phone */
 @media(min-width:378px) {
     .main-tyc{
